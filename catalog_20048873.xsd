@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cardShop">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="store">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="store_name" type="xs:string" />
+                            <xs:element name="address" type="xs:string" />
+                            <xs:element name="telephone_number" type="xs:string" />
+                            <xs:element name="logo" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="gift_card">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="card" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" minOccurs="0" maxOccurs="unbounded" type="xs:string" />
+                                        <xs:element name="type" type="xs:string" />
+                                        <xs:element name="cost" type="xs:string" />
+                                        <xs:element name="email" type="xs:string" />
+                                        <xs:element name="balance" minOccurs="0" type="xs:string" />
+                                        <xs:element name="validity" type="xs:string" />
+                                        <xs:element name="number_of_users" minOccurs="0" type="xs:string" />
+                                        <xs:element name="discount_vouchers" minOccurs="0" type="xs:string" />
+                                        <xs:element name="category" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:integer" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="website">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="urls">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="facebook" type="xs:string" />
+                                        <xs:element name="instagram" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,155 @@
+cardShop{
+    font-family: "Poppins", sans-serif;
+    background:#20B2AA;
+}
+
+store_name{
+    font-size: 40px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255,255,255,0.1);
+    z-index: 1;
+    backdrop-filter: blur(1px);
+    border: 2px solid transparent;
+    padding: 10px;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 20px;
+    border-color: skyblue;
+    color: aqua;
+    
+}
+
+address{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 1000px;
+  top: 30px;
+  position: relative;
+  position: sticky;
+  z-index: 1;
+
+}
+
+telephone_number{
+  font-size: 20px;
+  font-weight: bold;
+  top: 30px;
+  position: relative;
+  position: sticky;
+  z-index: 1;
+}
+
+logo{
+  background-image: url(../img/images2.png);
+  width:450px;
+  height: 300px;
+  display: block;
+  background-repeat: no-repeat;
+  margin-left: -220px;
+  margin-top: -70px;
+  position: fixed;
+  
+}
+
+gift_card{
+  margin-left: 50px;
+  text-align: center;
+  font-size: 2vw;
+  display: grid;
+  /* for every child/element in new line*/
+  height: 40vh;
+  width: 60vw;
+  grid-template-columns: 130% 130%;
+  grid-template-rows: 200% 200% 200%; 
+}
+
+card{
+  width: 500px;
+  height: 450px;
+  background-color: rgba(255,255,255,0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+  border: 2px solid transparent;
+  margin-left: 100px;
+  background-clip: padding-box;   
+  position: relative; 
+  top: 200px;
+  display: grid;
+  margin-top: 200px;
+  padding: 5px;
+  border-color: skyblue;
+
+}
+card:hover{
+  transform: scale(1.1);
+  z-index: 1;
+  transition: 1s ease-in-out;
+  display: grid;
+}
+card:nth-child(1):hover {
+  background-image: url(../img/google2.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 400px;
+  height: 450px;
+  display: grid;
+  border-color: black;
+}
+card:nth-child(2):hover {
+  background-image: url(../img/whatsapp1.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 400px;
+  height: 450px;
+  display: grid;
+  border-color: black;
+}
+card:nth-child(3):hover {
+  background-image: url(../img/itune1.jpeg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 400px;
+  height: 450px;
+  display: grid;
+  border-color: black;
+}
+card:nth-child(4):hover {
+  background-image: url(../img/netflix1.jpeg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 400px;
+  height: 450px;
+  display: grid;
+  border-color: black;
+}
+card:nth-child(5):hover {
+  background-image: url(../img/spotyfi1.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 400px;
+  height: 450px;
+  display: grid;
+  border-color: black;
+}
+card:nth-child(6):hover {
+  background-image: url(../img/siddharta1.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 400px;
+  height: 450px;
+  display: grid;
+  border-color: black;
+}
+
+website{
+  display: grid;
+  position: absolute;
+  padding-left: 100px;
+  top: 140em;
+  padding: 100px;
+  background-color: skyblue;
+  width: 100%;
+}

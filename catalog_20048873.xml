@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="catalog_20048873.css" type="text/css"?>
+<cardShop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<store>
+    <store_name>Find Gift Cards Here</store_name>
+    <address>Mahendranagar, Kanchanpur, Nepal</address>
+    <telephone_number>099-523474</telephone_number>
+    <logo></logo>
+</store>
+
+    <gift_card>
+        <card id="1">
+            <name>Google play card</name>           
+            <type>Type: Digital</type>
+            <cost>Cost: 1000</cost>
+            <email>Email: bishal12@gmail.com</email>
+            <balance>Balance: 500</balance>
+            <validity>Valid Date: 2025-3-07</validity>
+            <number_of_users>No Of Users: 2</number_of_users>
+            <discount_vouchers>Discount Available: yes</discount_vouchers>
+            <category>Category: Simple</category>
+        </card>
+        <card id="2">
+            <name>Whatsapp</name>
+            <type>Type: Physical</type>
+            <cost>Cost: 500</cost>
+            <email>Emali: aryal34@gmail.com</email>
+            <validity>Valid Date: 2022-12-01</validity>
+            <number_of_users>No Of Users: 10</number_of_users>
+            <discount_vouchers>Discount Available: No</discount_vouchers>
+            <category>Category: Simple</category>
+        </card>
+        <card id="3" >
+            <name>Apple itunes card</name>
+            <type>Type: Physical</type>
+            <cost>Cost: 2000</cost>
+            <email>Email: ram33@gmail.com</email>
+            <balance>Balance: 1000</balance>
+            <validity>Valid Date: 2023-01-01</validity>
+            <number_of_users>No Of Users: 5</number_of_users>
+            <category>Category: Medium</category>
+        </card>
+        <card id="4">
+            <name>Netflix subscription card</name>
+            <type>Type: Digital</type>
+            <cost>Cost: 5000</cost>
+            <email>Email: shyam34@gmail.com</email>
+            <validity>Valid Date: 2022-12-21</validity>
+            <number_of_users>No Of User: 4</number_of_users>
+            <discount_vouchers>Discount Available: No</discount_vouchers>
+            <category>Category: Medium</category>
+        </card>
+        <card id="5">
+            <name>Spotify play card</name>
+            <type>Type: Physical</type>
+            <cost>Cost: 200</cost>
+            <email>Email: hari12@gmai.com</email>
+            <validity>Valid Date: 2022-06-25</validity>
+            <discount_vouchers>Discount Available: Yes</discount_vouchers>
+            <category>Category: Simple</category>
+        </card>
+        <card id="6">
+            <name>Siddhartha Company</name>
+            <type>Type: Digital</type>
+            <cost>Cost: 10000</cost>
+            <email>Email: uday69@gmail.com</email>
+            <balance>Balance: 5000</balance>
+            <validity>Valid Date: 2030-01-01</validity>
+            <number_of_users>No Of Users: 1</number_of_users>
+            <category>Category: Special</category>
+        </card>
+    </gift_card>
+    <website>
+        <urls>
+            <facebook>https://www.facebook.com/profile.php?id=100006076606745</facebook>
+            <instagram>https://www.instagram.com/vishal__aryal/?hl=en</instagram>
+        </urls>
+    </website>
+</cardShop>
